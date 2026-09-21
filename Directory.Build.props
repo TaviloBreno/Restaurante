@@ -1,0 +1,26 @@
+<Project>
+  <PropertyGroup>
+    <!-- Framework e linguagem -->
+    <TargetFramework>net10.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+
+    <!-- Nullable e Implicit Usings -->
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+
+    <!-- Análise estática -->
+    <AnalysisLevel>latest</AnalysisLevel>
+    <AnalysisMode>Recommended</AnalysisMode>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+
+    <!-- Tratamento de warnings -->
+    <TreatWarningsAsErrors Condition="'$(Configuration)' == 'Release'">true</TreatWarningsAsErrors>
+    <CodeAnalysisTreatWarningsAsErrors Condition="'$(Configuration)' == 'Release'">true</CodeAnalysisTreatWarningsAsErrors>
+
+    <!-- Metadados -->
+    <Authors>Tavilo Breno</Authors>
+    <Company>Restaurante</Company>
+    <Product>Sistema de Restaurante</Product>
+  </PropertyGroup>
+</Project>
