@@ -6,6 +6,7 @@
     <Project Path="src/Restaurante.Client/Restaurante.Client.csproj" />
     <Project Path="src/Restaurante.Domain/Restaurante.Domain.csproj" />
     <Project Path="src/Restaurante.Infrastructure/Restaurante.Infrastructure.csproj" />
+    <Project Path="src/Restaurante.Web/Restaurante.Web.csproj" />
   </Folder>
   <Folder Name="/tests/">
     <Project Path="tests/Restaurante.Application.Tests/Restaurante.Application.Tests.csproj" />
